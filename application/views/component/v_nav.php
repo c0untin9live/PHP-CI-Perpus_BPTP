@@ -157,43 +157,43 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/daftar_perpanjangan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Perpanjangan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/entry_pengembalian');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Pengembalian</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/entry_pengembalian_susulan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Pengembalian Susulan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/entry_pengembalian_gabungan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Pengembalian Gabungan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/daftar_pengembalian');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Pengembalian</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?site_url('/sirkulasi/stok_opname');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Stok Opname</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/data_pelanggaran');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Pelanggaran</p>
                 </a>
@@ -210,19 +210,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+                <a href="<?=site_url('/buku_tamu/anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+                <a href="<?=site_url('/buku_tamu/non_anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Non Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
+                <a href="<?=site_url('/buku_tamu/rombongan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Rombongan</p>
                 </a>
@@ -239,19 +239,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/baca_ditempat/anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/baca_ditempat/non_anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Non Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/baca_ditempat/pengembalian_koleksi_baca_ditempat');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pengembalian Koleksi Baca Ditempat</p>
                 </a>
@@ -268,61 +268,61 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/katalog');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Katalog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/koleksi');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Koleksi</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/sirkulasi');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Sirkulasi</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/buku_tamu');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Buku Tamu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/baca_ditempat');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Baca Ditempat</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/loker');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Loker</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/opac');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>OPAC</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/SMS');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>SMS</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?=site_url('/laporan/artikel');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Artikel</p>
                 </a>

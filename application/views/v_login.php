@@ -19,7 +19,7 @@
         <div class="card o-hidden border-0 my-5">
           <div class="card-body p-5">
             <div class="text-center">
-              <p class="mb-2 text-danger"><?php echo $this->session->userdata('failedLogin');?></p>
+              <p class="mb-2 text-danger"><?php echo $this->session->userdata('msgLogin');?></p>
             </div>
             <div class="row">
               <div class="col-lg-6 d-none d-lg-block bg-password-image"></div>

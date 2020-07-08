@@ -25,11 +25,15 @@ class Login extends CI_Controller
 		$username = $this->input->post('username');
 		$password = $this->input->post('password');
 		$where = array('username' => $username, 'password' => $password);
-
+		
 		$cek = $this->m_login->cek_login("users",$where)->num_rows();
-		if($cek > 0)
+		if($cek != 0)
 		{
-			$data_session = array('nama' => $username, 'status' => 'login');
+			$data_session = array(
+				'nama' => $username,
+				'status' => 'login',
+			);
+			
 			$this->session->set_userdata($data_session);
 			redirect(base_url('/dashboard'));
 
@@ -37,7 +41,12 @@ class Login extends CI_Controller
 
 		elseif ($cek == 0) 
 		{
-			$data_session_failed = array('failedLogin' => 'Username atau Password yang anda masukan salah !');
+			$data_session_failed = array(
+				'nama' => $username,
+				'status' => 'notLogin',
+				'msgLogin' => 'Username atau Password yang anda masukan salah !'
+			);
+
 			$this->session->set_userdata($data_session_failed);
 			redirect(base_url('/'));
 		}
