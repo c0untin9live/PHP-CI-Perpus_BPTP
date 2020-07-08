@@ -27,43 +27,43 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/katalog/entry_katalog" class="nav-link">
+                <a href="<?=site_url('/katalog/entry_katalog');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Katalog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/katalog/entry_katalog_rdl" class="nav-link">
+                <a href="<?=site_url('/katalog/entry_katalog_rdl');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Katalog(RDL)</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/katalog/salin_katalog" class="nav-link">
+                <a href="<?=site_url('/katalog/salin_katalog');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Salin Katalog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/katalog/daftar_katalog" class="nav-link">
+                <a href="<?=site_url('/katalog/daftar_katalog');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Katalog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/katalog/daftar_konten_digital" class="nav-link">
+                <a href="<?=site_url('/katalog/daftar_konten_digital');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Konten Digital</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/katalog/keranjang_katalog" class="nav-link">
+                <a href="<?=site_url('/katalog/keranjang_katalog');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Keranjang Katalog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/katalog/karantina_katalog" class="nav-link">
+                <a href="<?=site_url('/katalog/karantina_katalog');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Karantina Katalog</p>
                 </a>
@@ -80,37 +80,37 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/keanggotaan/entry_anggota" class="nav-link">
+                <a href="<?=site_url('/keanggotaan/entry_anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/keanggotaan/daftar_anggota" class="nav-link">
+                <a href="<?=site_url('/keanggotaan/daftar_anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Anggota</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/keanggotaan/import_data_dari_excel" class="nav-link">
+                <a href="<?=site_url('/keanggotaan/import_data_dari_excel');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Import Data Dari Excel</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/keanggotaan/daftar_sumbangan" class="nav-link">
+                <a href="<?=site_url('/keanggotaan/daftar_sumbangan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Sumbangan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/keanggotaan/daftar_perpanjangan" class="nav-link">
+                <a href="<?=site_url('/keanggotaan/daftar_perpanjangan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Perpanjangan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/keanggotaan/keranjang_anggota" class="nav-link">
+                <a href="<?=site_url('/keanggotaan/keranjang_anggota');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Keranjang Anggota</p>
                 </a>
@@ -127,31 +127,31 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/sirkulasi/entry_peminjaman" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/entry_peminjaman');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Peminjaman</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/sirkulasi/entry_peminjaman_susulan" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/entry_peminjaman_susulan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Peminjaman Susulan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/sirkulasi/daftar_koleksi_dipesan" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/daftar_koleksi_dipesan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Koleksi Dipesan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/sirkulasi/daftar_peminjaman" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/daftar_peminjaman');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Peminjaman</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/sirkulasi/entry_perpanjangan" class="nav-link">
+                <a href="<?=site_url('/sirkulasi/entry_perpanjangan');?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Entry Perpanjangan</p>
                 </a>
